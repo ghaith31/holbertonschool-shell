@@ -1,16 +1,3 @@
 #!/bin/bash
+files=$(find . -name "*.html")
 
-# loop through all HTML files in the current directory
-for file in *.html; do
-  # check if the file exists in the parent directory
-  if [ ! -f ../$file ]; then
-    # if it doesn't exist, simply copy it
-    cp $file ../$file
-  else
-    # if it exists, compare modification times
-    # and only copy if the file in the current directory is newer
-    if [ $file -nt ../$file ]; then
-      cp $file ../$file
-    fi
-  fi
-done
