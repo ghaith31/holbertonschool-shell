@@ -1,0 +1,47 @@
+#!/bin/bash
+find -File Edit Options Buffers Tools Sh-Script Help
+#!/bin/bash
+find - -type d -name '*' | grep -vE '^(\.\/|\.\.\/)' | wc -l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:**--F1  11-directories   All L2    Git-main  (Shell-script[bash]) ------------------------------------------------------------------------------------------------- -type d -name '*' | grep -vE '^(\.\/|\.\.\/)' | wc -l
